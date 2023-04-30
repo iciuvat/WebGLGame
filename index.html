@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>three.js 3D silly game</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="three.js"></script>
+    <script src="Detector.js"></script>
+    <script src="OrbitControls.js"></script>
+    <script src="OBJLoader.js"></script>
+    <script src="MTLLoader.js"></script>
+    <script src="webgl-demo.js" type="module" defer></script>
+    <style>
+    </style>
+
+</head>
+<body>
+  <div ng-app="threeDeeApp" ng-controller="threeDeeController">
+	  <table align="center">
+      <tr>
+        <td style="text-align: center;">
+          <div id="score">0</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <canvas id="glcanvas" width="800" height="600"></canvas>
+	  	  </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
